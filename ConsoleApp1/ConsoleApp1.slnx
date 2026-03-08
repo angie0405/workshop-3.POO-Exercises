@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/31/">
+    <Project Path="../Exercise 31/Exercise 31.csproj" />
+  </Folder>
+  <Folder Name="/34/">
+    <Project Path="../Exercise34/Exercise34.csproj" />
+  </Folder>
+</Solution>
