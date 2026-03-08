@@ -1,11 +1,16 @@
 ﻿using System;
-
-internal class Program
+internal class Program31
 {
     private static void Main()
     {
         Console.WriteLine("Ingrese el orden de la matriz: ");
-        int n = int.Parse(Console.ReadLine());
+        string? input = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(input))
+        {
+            Console.WriteLine("Entrada inválida. Por favor ingrese un número.");
+            return;
+        }
+        int n = int.Parse(input);
 
         // create matrix
         int[,] matrix = new int[n, n];
