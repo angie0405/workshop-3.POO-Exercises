@@ -11,5 +11,11 @@ namespace First_Program
         {
             MessageBox.Show("Hola, este es mi primer programa en C#");
         }
+
+        private void btnValor_Click(object sender, EventArgs e)
+        {
+            int valorNumerico = 20;
+            MessageBox.Show("El valor numérico es: " + valorNumerico);
+        }
     }
 }

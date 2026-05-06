@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnVerMensaje = new Button();
+            btnValor = new Button();
             SuspendLayout();
             // 
             // btnVerMensaje
@@ -41,11 +42,22 @@
             btnVerMensaje.UseVisualStyleBackColor = true;
             btnVerMensaje.Click += btnVerMensaje_Click;
             // 
+            // btnValor
+            // 
+            btnValor.Location = new Point(88, 91);
+            btnValor.Name = "btnValor";
+            btnValor.Size = new Size(185, 57);
+            btnValor.TabIndex = 1;
+            btnValor.Text = "VALOR NUMERICO";
+            btnValor.UseVisualStyleBackColor = true;
+            btnValor.Click += btnValor_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(364, 245);
+            Controls.Add(btnValor);
             Controls.Add(btnVerMensaje);
             Name = "Form1";
             Text = "Form1";
@@ -55,5 +67,6 @@
         #endregion
 
         private Button btnVerMensaje;
+        private Button btnValor;
     }
 }
